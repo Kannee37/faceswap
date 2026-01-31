@@ -1,0 +1,9 @@
+insightface
+onnxruntime
+matplotlib
+opencv-python
+transformers 
+accelerate 
+safetensors 
+torch
+diffusers 
