@@ -15,8 +15,7 @@ Mô hình được huấn luyện với:
 * Base model: ResNet-50
 * Dataset: FairFace
 
-![Kết quả đánh giá](img/re.png)
-![Ma trận nhầm lẫn](img/cm.png)
+![Kết quả đánh giá](img/re.png) ![Ma trận nhầm lẫn](img/cm.png)
 Mô hình đạt độ chính xác cao (93%) trên tập test. Các chỉ số precision, recall và F1 – score đều cao và cân bằng giữa 2 lớp giới tính. Ma trận nhầm lẫn cho thấy mô hình không có xu hướng thiên lệch về một giới tính cụ thể.
 
 ## Mô hình sinh ảnh từ văn bản
@@ -26,14 +25,11 @@ Mô hình này được sử dụng dưới dạng mô hình pretrained và đư
 ## Mô hình hoán đổi khuôn mặt (faceswap)
 Mô hình hoán đổi khuôn mặt nhằm thay thế khuôn mặt của nhân vật trong ảnh đích bằng khuôn mặt của người dùng, qua đó tạo ra hình ảnh mang tính cá nhân hóa cao mà vẫn giữ nguyên bối cảnh và phong cách ban đầu của ảnh. 
 
-![Ảnh nguồn (Ảnh cung cấp mặt)](img/src.png)
-![Ảnh đích](img/dst.png)
-![Kết quả](img/res.png)
+![Ảnh nguồn (Ảnh cung cấp mặt)](img/src.png) ![Ảnh đích](img/dst.png) ![Kết quả](img/res.png)
 
 ## Ghi chú
---------chạy file face_swap bằng lệnh: 
+chạy file face_swap bằng lệnh: 
 python face_swap.py --source đường_dẫn_ảnh_nguồn (ảnh cung cấp mặt) --target đường_dẫn_ảnh_đích (ảnh cần mặt) --output đường_dẫn_kết_quả
----------------------------------
 --------Chạy file tạo prompt-----:
 python text_to_image.py --source đường_dẫn_ảnh_nguồn (ảnh cung cấp mặt) --prompt đường_dẫn_prompt --output đường_dẫn_kết_quả
 
