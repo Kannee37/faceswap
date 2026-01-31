@@ -9,7 +9,7 @@ Face Swap là một chức năng nhỏ trong hệ thống Photobooth_AI. Chức 
 ![Biểu đồ hoạt động](img/f1.png)
 
 ## Nhận diện giới tính
-Mô hình nhận diện giới tính được xây dựng nhằm xác định giới tính của người dùng từ ảnh khuôn mặt, phục vụ cho việc cá nhân hóa nội udng sinh ảnh. Kết quả dự đoán của mô hình đóng vai trò là thông tin ngữ cảnh hỗ trợ quá trình xây dựng prompt và điều chỉnh nội dung ảnh sinh ra. 
+Mô hình nhận diện giới tính được xây dựng nhằm xác định giới tính của người dùng từ ảnh khuôn mặt, phục vụ cho việc cá nhân hóa nội dung sinh ảnh. Kết quả dự đoán của mô hình đóng vai trò là thông tin ngữ cảnh hỗ trợ quá trình xây dựng prompt và điều chỉnh nội dung ảnh sinh ra. 
 
 Mô hình được huấn luyện với:
 * Base model: ResNet-50
